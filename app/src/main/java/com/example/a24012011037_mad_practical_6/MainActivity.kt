@@ -32,8 +32,6 @@ class MainActivity : AppCompatActivity() {
         ivHeart = findViewById(R.id.ivHeart)
         ivHeart.setBackgroundResource(R.drawable.ic_heart_outline)
         heartPulseAnimation = ivHeart.background as AnimationDrawable
-
-        //android.util.Log.d("HeartAnim", "Loaded: $heartPulseAnimation")
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
